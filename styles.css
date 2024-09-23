@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    color: white;
+  }
+  
+
+  
+  .btn {
+    padding: 20px 50px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .btn span {
+    color: red;
+  }
+  
+  form {
+    padding: 20px;
+    background-color: rgb(115, 144, 241);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 10px;
+  }
+  
+  form input {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  form button {
+    display: block;
+    border: none;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  
+  .random-password {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
